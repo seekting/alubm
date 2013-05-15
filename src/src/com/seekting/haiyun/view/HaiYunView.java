@@ -64,21 +64,7 @@ public class HaiYunView extends SurfaceView implements Callback, OnClickListener
         holder = this.getHolder();
         holder.addCallback(this);
         pics = new ArrayList<BitmapDrawable>();
-        pics.add((BitmapDrawable)getResources().getDrawable(R.drawable.i6));
-        pics.add((BitmapDrawable)getResources().getDrawable(R.drawable.i7));
-        pics.add((BitmapDrawable)getResources().getDrawable(R.drawable.i8));
-        pics.add((BitmapDrawable)getResources().getDrawable(R.drawable.i9));
-        pics.add((BitmapDrawable)getResources().getDrawable(R.drawable.i10));
-        pics.add((BitmapDrawable)getResources().getDrawable(R.drawable.i11));
-        pics.add((BitmapDrawable)getResources().getDrawable(R.drawable.i12));
-        pics.add((BitmapDrawable)getResources().getDrawable(R.drawable.i13));
-        pics.add((BitmapDrawable)getResources().getDrawable(R.drawable.i14));
-        pics.add((BitmapDrawable)getResources().getDrawable(R.drawable.i15));
-        pics.add((BitmapDrawable)getResources().getDrawable(R.drawable.i1));
-        pics.add((BitmapDrawable)getResources().getDrawable(R.drawable.i2));
-        pics.add((BitmapDrawable)getResources().getDrawable(R.drawable.i3));
-        pics.add((BitmapDrawable)getResources().getDrawable(R.drawable.i4));
-        pics.add((BitmapDrawable)getResources().getDrawable(R.drawable.i5));
+        pics.add((BitmapDrawable)getResources().getDrawable(R.drawable.pic));
 
         mediaPlayer = MediaPlayer.create(context, R.raw.canon);
         setOnClickListener(this);
@@ -672,8 +658,7 @@ public class HaiYunView extends SurfaceView implements Callback, OnClickListener
 
         String d = "  ";
 
-        String text = "猪" + d + "猪" + d + "海" + d + "云" + d + "生" + d + "日" + d + "快" + d + "乐" + d
-                + "Happy Birthday!";
+        String text = "Happy Birthday!";
 
         Paint textPaint = new Paint();
 
